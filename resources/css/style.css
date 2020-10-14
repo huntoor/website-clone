@@ -200,8 +200,9 @@ h2 {
 }
 
 .end div {
-  background-color: yellow;
-  padding: 30px 40px;
+  background-color: transparent;
+  color: white;
+  padding: 40px 40px;
   width: 500px;
   height: 370px;
   text-align: center;
@@ -217,16 +218,40 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .end div h2 {
   padding: 0;
   margin: 0;
   font-size: 180%;
+  letter-spacing: 10px;
 }
 
 .end div p {
   font-size: 130%;
   line-height: 40px;
+}
+
+.end div a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 80%;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 14px 65px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.end div a:hover {
+  color: #233a37;
+  background-color: white;
+}
+
+.end:hover div {
+  background-color: #233a37;
 }
 /*# sourceMappingURL=style.css.map */

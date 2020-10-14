@@ -165,8 +165,9 @@ h2 {
   align-items: center;
 
    div {
-    background-color: yellow;
-    padding: 30px 40px;
+    background-color: transparent;
+    color: white;
+    padding: 40px 40px;
     width: 500px;
     height: 370px;
     text-align: center;
@@ -174,16 +175,41 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.7s;
 
     h2 {
       padding: 0;
       margin: 0;
       font-size: 180%;
+      letter-spacing: 10px;
     }
+
     p {
       font-size: 130%;
       line-height: 40px;
     }
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-size: 80%;
+      border: 1px solid white;
+      border-radius: 8px;
+      padding: 14px 65px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color:  rgb(35, 58, 55);
+      background-color: white;
+    }
    }
 }
+
+.end:hover {
+  div {
+  background-color: rgb(35, 58, 55);
+  }
+ }
 

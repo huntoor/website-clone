@@ -11,7 +11,6 @@ html {
   font-weight: 300;
   color: #03271b;
   background-color: #ffffff;
-  overflow-x: hidden;
 }
 
 header {
@@ -71,7 +70,7 @@ header .main-nav ul li a:hover {
 }
 
 header .main-nav ul li .icon-big {
-  font-size: 170%;
+  font-size: 180%;
 }
 
 header .main-nav ul li .fa-bell {
@@ -124,7 +123,7 @@ h2 {
 
 .first-product {
   background-color: rgba(182, 216, 216, 0.596);
-  height: 80vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,7 +136,7 @@ h2 {
 
 .secound-product {
   background-color: rgba(182, 216, 216, 0.596);
-  height: 80vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +184,7 @@ h2 {
 .end {
   margin-top: 100px;
   background-image: url(../img/offset_72742-en-1513704262.jpg);
-  height: 90vh;
+  height: 500px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -237,8 +236,9 @@ h2 {
 .end div a {
   text-decoration: none;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 80%;
+  font-size: 70%;
   border: 1px solid white;
   border-radius: 8px;
   padding: 14px 65px;
@@ -253,5 +253,67 @@ h2 {
 
 .end:hover div {
   background-color: #233a37;
+}
+
+footer {
+  color: rgba(3, 39, 27, 0.37);
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+  width: 130px;
+  height: auto;
+}
+
+footer .social-media {
+  width: 500px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul a {
+  color: rgba(3, 39, 27, 0.37);
+  margin-right: 30px;
+}
+
+footer ul a:hover {
+  color: #03271b;
+}
+
+footer p {
+  font-size: 75%;
+  word-spacing: 5px;
+}
+
+footer .credits {
+  font-size: 70%;
 }
 /*# sourceMappingURL=style.css.map */

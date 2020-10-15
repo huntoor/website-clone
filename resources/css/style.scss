@@ -5,7 +5,7 @@
 }
 @mixin center {
   background-color: rgba(182, 216, 216, 0.596);
-  height: 80vh;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: space-around; 
@@ -17,12 +17,8 @@ html {
   font-weight: 300;
   color: rgb(3, 39, 27);
   background-color: #ffffff;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
-
-// body {
-//   margin: 0 40px;
-// }
 
 // header
 
@@ -66,7 +62,7 @@ header {
     }
 
     .icon-big {
-      font-size: 170%;
+      font-size: 180%;
     }
     .fa-bell {
       border-bottom: 5px solid transparent;
@@ -156,7 +152,7 @@ h2 {
 .end {
   margin-top: 100px;
   background-image: url(../img/offset_72742-en-1513704262.jpg);
-  height: 90vh;
+  height: 500px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -192,8 +188,9 @@ h2 {
     a {
       text-decoration: none;
       color: white;
+      font-family: Arial, Helvetica, sans-serif;
       text-transform: uppercase;
-      font-size: 80%;
+      font-size: 70%;
       border: 1px solid white;
       border-radius: 8px;
       padding: 14px 65px;
@@ -212,4 +209,53 @@ h2 {
   background-color: rgb(35, 58, 55);
   }
  }
+
+//  footer
+
+footer {
+  color: rgba(3, 39, 27, 0.37);
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  img {
+    width: 130px;
+    height: auto;
+  }
+
+  .social-media {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+ 
+    a {
+      color: rgba(3, 39, 27, 0.37);
+      margin-right: 30px;
+    }
+
+    a:hover {
+      color: rgba(3, 39, 27, 1);
+    } 
+  }
+
+  p {
+     font-size: 75%; 
+     word-spacing: 5px;
+  }
+
+  .credits { 
+    font-size: 70%;
+  }
+}
 

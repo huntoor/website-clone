@@ -115,11 +115,11 @@ h2 {
 // product section 
 
 .first-product {
-  @include center()
+  @include center();
 }
 
 .secound-product {
-  @include center()
+  @include center();
   background-color: white;
 }
 
